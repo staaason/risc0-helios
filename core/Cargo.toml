@@ -19,9 +19,6 @@ helios = { git = "https://github.com/a16z/helios", optional = true }
 reqwest = {version = "0.12.8", optional = true}
 tree_hash = {version = "0.7.0", optional = true}
 
-[patch.crates-io]
-ethereum_hashing = { git = "https://github.com/ratankaliani/ethereum_hashing", branch = "main" }
-
 [features]
 host = [
     "tokio",
